@@ -1,0 +1,38 @@
+body {
+    /* color: white; */
+    background-image: url(https://codeacademy.lt/wp-content/themes/codeacademy/dist/images/decoration-arrows.svg);
+    
+    /* background-color: black; */
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.logo-wrapper img {
+    justify-content: flex-end;
+    max-height: 100%;
+}
+
+.navigation-wrapper ul {
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+
+
+}
+.navigation-wrapper li{
+
+    margin: 0;
+    margin-left: 20px;
+
+}
+.navigation-wrapper a {
+    /* padding: 35px 60px; */
+    text-decoration: none;
+}
+    
